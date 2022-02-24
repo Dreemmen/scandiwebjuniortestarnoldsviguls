@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana;
+}
+/*
+@media tablet {
+    .warning_msg {
+        margin-left: 149px;
+    }
+}
+@media phone {
+    .warning_msg {
+        margin-left: 0px;
+    }
+}
+*/
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2px 8px 0 8px;
+    background: #fffefc;
+}
+.form_line {
+    padding: 1px 0;
+}
+.form_line label {
+    width: 140px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 3px;
+}
+.form_line input {
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 1px;
+    text-indent: 3px;
+}
